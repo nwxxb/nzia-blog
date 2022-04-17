@@ -1,0 +1,1853 @@
+{:	data{
+o:Nanoc::Core::Identifier:
+@type:	full:@stringI"/index.html:ET{:default{
+:rawU: Nanoc::Core::TextualContent[I"9/home/nawwabz/Documents/nzia_blog/content/index.html;
+TI"�<p style="font-size: 24px; line-height: 32px;">I am a final-year student that still bothers to create a blog instead of
+trying to finish my uni life as soon as possible.</p> 
+
+<p>
+Here, I put all of my opinions and share some experiences (mostly in indonesian) instead of just
+throwing both of them straightly into the void of my head. And please 
+<a
+  href="https://dictionary.cambridge.org/dictionary/english/take-something-with-a-grain-of-salt">don't
+  take it with grain of salt</a>.
+</p>
+
+;
+T:pre@:_0U;[0I"�<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>nzia - Hello, my name is Nzia</title>
+    <link rel="stylesheet" href="/default.css">
+
+    <!-- you don't need to keep this, but it's cool for stats! -->
+    <meta name="generator" content="Nanoc 4.12.5">
+  </head>
+  <body>
+    <div>
+      <header class="header">
+        <h1 class="header__title">
+          Hello, my name is Nzia
+        </h1>
+      </header>
+      <main class="main">
+        <p style="font-size: 24px; line-height: 32px;">I am a final-year student that still bothers to create a blog instead of
+trying to finish my uni life as soon as possible.</p> 
+
+<p>
+Here, I put all of my opinions and share some experiences (mostly in indonesian) instead of just
+throwing both of them straightly into the void of my head. And please 
+<a
+  href="https://dictionary.cambridge.org/dictionary/english/take-something-with-a-grain-of-salt">don't
+  take it with grain of salt</a>.
+</p>
+
+
+        <section class="posts">
+  <ul class="posts__list">
+    
+      <li class="posts__list-item">
+        <a class="posts__list-item__a" href="/posts/test/">cuma ngetest aja</a>
+      </li>
+    
+      <li class="posts__list-item">
+        <a class="posts__list-item__a" href="/posts/try_lorem/">try lorem ipsum</a>
+      </li>
+    
+      <li class="posts__list-item">
+        <a class="posts__list-item__a" href="/posts/why_i_create_this_blog/">Alasan kenapa blog ini dibuat</a>
+      </li>
+    
+  </ul>
+</section>
+
+      </main>
+    </div>
+  </body>
+</html>
+;
+T:	post@:	last@o;;;;	I"/default.css;
+T{;{	;U;[I":/home/nawwabz/Documents/nzia_blog/content/default.css;
+TI"�H@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap');
+
+:root {
+  --black: rgb(31 41 55);
+  --gray-light: rgb(71 85 105);
+  --cyan-light: rgb(8 145 178);
+  --cyan-dark: rgb(21 94 117);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+}
+
+body {
+  max-width: 992px;
+  padding: 24px;
+  padding-top: 48px;
+  margin: 0 auto;
+  background: #fff;
+  color: var(--black);
+}
+
+body > div {
+  max-width: 576px;
+}
+
+/* I just try to use BEM on non dynamic content */
+.header {
+  margin-bottom: 24px;
+}
+
+.header__title {
+  font-size: 40px;
+  font-weight: normal;
+  margin-bottom: 8px;
+
+  line-height: 40px;
+
+  letter-spacing: -1px;
+}
+
+.header__nav {
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+  color: var(--gray-light);
+}
+
+.back-button {
+  color: inherit;
+  text-decoration: none;
+}
+
+.back-button:hover {
+  text-decoration: underline;
+}
+
+.posts {
+  width: fit-content;
+}
+
+.posts__list {
+  margin: 0;
+  list-style-type: none;
+}
+
+.posts__list-item {
+  font-size: 24px;
+  text-decoration: underline;
+  padding-bottom: 16px;
+  list-style-type: none;
+}
+
+.posts li a {
+  color: var(--black);
+}
+
+.main h1 {
+  font-size: 40px;
+  font-weight: normal;
+
+  line-height: 40px;
+
+  letter-spacing: -1px;
+}
+
+.main p {
+  margin: 20px 0;
+
+  font-size: 18px;
+}
+
+.main a {
+  color: var(--cyan-light);
+  text-decoration: none;
+}
+
+.main a:hover {
+  text-decoration: underline;
+}
+
+/* MARKDOWN */
+.markdown-body {
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  margin: 0;
+  color: #24292f;
+  background-color: #ffffff;
+  font-size: 16px;
+  line-height: 1.5;
+  word-wrap: break-word;
+}
+
+.markdown-body .octicon {
+  display: inline-block;
+  fill: currentColor;
+  vertical-align: text-bottom;
+}
+
+.markdown-body h1:hover .anchor .octicon-link:before,
+.markdown-body h2:hover .anchor .octicon-link:before,
+.markdown-body h3:hover .anchor .octicon-link:before,
+.markdown-body h4:hover .anchor .octicon-link:before,
+.markdown-body h5:hover .anchor .octicon-link:before,
+.markdown-body h6:hover .anchor .octicon-link:before {
+  width: 16px;
+  height: 16px;
+  content: ' ';
+  display: inline-block;
+  background-color: currentColor;
+  -webkit-mask-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' version='1.1' aria-hidden='true'><path fill-rule='evenodd' d='M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z'></path></svg>");
+  mask-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' version='1.1' aria-hidden='true'><path fill-rule='evenodd' d='M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z'></path></svg>");
+}
+
+.markdown-body details,
+.markdown-body figcaption,
+.markdown-body figure {
+  display: block;
+}
+
+.markdown-body summary {
+  display: list-item;
+}
+
+.markdown-body [hidden] {
+  display: none !important;
+}
+
+.markdown-body a {
+  background-color: transparent;
+  color: #0969da;
+  text-decoration: none;
+}
+
+.markdown-body a:active,
+.markdown-body a:hover {
+  outline-width: 0;
+}
+
+.markdown-body abbr[title] {
+  border-bottom: none;
+  text-decoration: underline dotted;
+}
+
+.markdown-body b,
+.markdown-body strong {
+  font-weight: 600;
+}
+
+.markdown-body dfn {
+  font-style: italic;
+}
+
+.markdown-body h1 {
+  margin: .67em 0;
+  font-weight: 600;
+  padding-bottom: .3em;
+  font-size: 2em;
+}
+
+.markdown-body mark {
+  background-color: #fff8c5;
+  color: #24292f;
+}
+
+.markdown-body small {
+  font-size: 90%;
+}
+
+.markdown-body sub,
+.markdown-body sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+.markdown-body sub {
+  bottom: -0.25em;
+}
+
+.markdown-body sup {
+  top: -0.5em;
+}
+
+.markdown-body img {
+  border-style: none;
+  max-width: 100%;
+  box-sizing: content-box;
+  background-color: #ffffff;
+}
+
+.markdown-body code,
+.markdown-body kbd,
+.markdown-body pre,
+.markdown-body samp {
+  font-family: monospace,monospace;
+  font-size: 1em;
+}
+
+.markdown-body figure {
+  margin: 1em 40px;
+}
+
+.markdown-body hr {
+  box-sizing: content-box;
+  overflow: hidden;
+  background: transparent;
+  border-bottom: 1px solid hsla(210,18%,87%,1);
+  height: .25em;
+  padding: 0;
+  margin: 24px 0;
+  background-color: #d0d7de;
+  border: 0;
+}
+
+.markdown-body input {
+  font: inherit;
+  margin: 0;
+  overflow: visible;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+.markdown-body [type=button],
+.markdown-body [type=reset],
+.markdown-body [type=submit] {
+  -webkit-appearance: button;
+}
+
+.markdown-body [type=button]::-moz-focus-inner,
+.markdown-body [type=reset]::-moz-focus-inner,
+.markdown-body [type=submit]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+.markdown-body [type=button]:-moz-focusring,
+.markdown-body [type=reset]:-moz-focusring,
+.markdown-body [type=submit]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+.markdown-body [type=checkbox],
+.markdown-body [type=radio] {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+.markdown-body [type=number]::-webkit-inner-spin-button,
+.markdown-body [type=number]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+.markdown-body [type=search] {
+  -webkit-appearance: textfield;
+  outline-offset: -2px;
+}
+
+.markdown-body [type=search]::-webkit-search-cancel-button,
+.markdown-body [type=search]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+.markdown-body ::-webkit-input-placeholder {
+  color: inherit;
+  opacity: .54;
+}
+
+.markdown-body ::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  font: inherit;
+}
+
+.markdown-body a:hover {
+  text-decoration: underline;
+}
+
+.markdown-body hr::before {
+  display: table;
+  content: "";
+}
+
+.markdown-body hr::after {
+  display: table;
+  clear: both;
+  content: "";
+}
+
+.markdown-body table {
+  border-spacing: 0;
+  border-collapse: collapse;
+  display: block;
+  width: max-content;
+  max-width: 100%;
+  overflow: auto;
+}
+
+.markdown-body td,
+.markdown-body th {
+  padding: 0;
+}
+
+.markdown-body details summary {
+  cursor: pointer;
+}
+
+.markdown-body details:not([open])>*:not(summary) {
+  display: none !important;
+}
+
+.markdown-body kbd {
+  display: inline-block;
+  padding: 3px 5px;
+  font: 11px ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;
+  line-height: 10px;
+  color: #24292f;
+  vertical-align: middle;
+  background-color: #f6f8fa;
+  border: solid 1px rgba(175,184,193,0.2);
+  border-bottom-color: rgba(175,184,193,0.2);
+  border-radius: 6px;
+  box-shadow: inset 0 -1px 0 rgba(175,184,193,0.2);
+}
+
+.markdown-body h1,
+.markdown-body h2,
+.markdown-body h3,
+.markdown-body h4,
+.markdown-body h5,
+.markdown-body h6 {
+  margin-top: 24px;
+  margin-bottom: 16px;
+  font-weight: 600;
+  line-height: 1.25;
+}
+
+.markdown-body h2 {
+  font-weight: 600;
+  padding-bottom: .3em;
+  font-size: 1.5em;
+}
+
+.markdown-body h3 {
+  font-weight: 600;
+  font-size: 1.25em;
+}
+
+.markdown-body h4 {
+  font-weight: 600;
+  font-size: 1em;
+}
+
+.markdown-body h5 {
+  font-weight: 600;
+  font-size: .875em;
+}
+
+.markdown-body h6 {
+  font-weight: 600;
+  font-size: .85em;
+  color: #57606a;
+}
+
+.markdown-body p {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.markdown-body blockquote {
+  margin: 0;
+  padding: 0 1em;
+  color: #57606a;
+  border-left: .25em solid #d0d7de;
+}
+
+.markdown-body ul,
+.markdown-body ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 2em;
+}
+
+.markdown-body ol ol,
+.markdown-body ul ol {
+  list-style-type: lower-roman;
+}
+
+.markdown-body ul ul ol,
+.markdown-body ul ol ol,
+.markdown-body ol ul ol,
+.markdown-body ol ol ol {
+  list-style-type: lower-alpha;
+}
+
+.markdown-body dd {
+  margin-left: 0;
+}
+
+.markdown-body tt,
+.markdown-body code {
+  font-family: ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;
+  font-size: 12px;
+}
+
+.markdown-body pre {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,Liberation Mono,monospace;
+  font-size: 12px;
+  word-wrap: normal;
+}
+
+.markdown-body .octicon {
+  display: inline-block;
+  overflow: visible !important;
+  vertical-align: text-bottom;
+  fill: currentColor;
+}
+
+.markdown-body ::placeholder {
+  color: #6e7781;
+  opacity: 1;
+}
+
+.markdown-body input::-webkit-outer-spin-button,
+.markdown-body input::-webkit-inner-spin-button {
+  margin: 0;
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+.markdown-body .pl-c {
+  color: #6e7781;
+}
+
+.markdown-body .pl-c1,
+.markdown-body .pl-s .pl-v {
+  color: #0550ae;
+}
+
+.markdown-body .pl-e,
+.markdown-body .pl-en {
+  color: #8250df;
+}
+
+.markdown-body .pl-smi,
+.markdown-body .pl-s .pl-s1 {
+  color: #24292f;
+}
+
+.markdown-body .pl-ent {
+  color: #116329;
+}
+
+.markdown-body .pl-k {
+  color: #cf222e;
+}
+
+.markdown-body .pl-s,
+.markdown-body .pl-pds,
+.markdown-body .pl-s .pl-pse .pl-s1,
+.markdown-body .pl-sr,
+.markdown-body .pl-sr .pl-cce,
+.markdown-body .pl-sr .pl-sre,
+.markdown-body .pl-sr .pl-sra {
+  color: #0a3069;
+}
+
+.markdown-body .pl-v,
+.markdown-body .pl-smw {
+  color: #953800;
+}
+
+.markdown-body .pl-bu {
+  color: #82071e;
+}
+
+.markdown-body .pl-ii {
+  color: #f6f8fa;
+  background-color: #82071e;
+}
+
+.markdown-body .pl-c2 {
+  color: #f6f8fa;
+  background-color: #cf222e;
+}
+
+.markdown-body .pl-sr .pl-cce {
+  font-weight: bold;
+  color: #116329;
+}
+
+.markdown-body .pl-ml {
+  color: #3b2300;
+}
+
+.markdown-body .pl-mh,
+.markdown-body .pl-mh .pl-en,
+.markdown-body .pl-ms {
+  font-weight: bold;
+  color: #0550ae;
+}
+
+.markdown-body .pl-mi {
+  font-style: italic;
+  color: #24292f;
+}
+
+.markdown-body .pl-mb {
+  font-weight: bold;
+  color: #24292f;
+}
+
+.markdown-body .pl-md {
+  color: #82071e;
+  background-color: #FFEBE9;
+}
+
+.markdown-body .pl-mi1 {
+  color: #116329;
+  background-color: #dafbe1;
+}
+
+.markdown-body .pl-mc {
+  color: #953800;
+  background-color: #ffd8b5;
+}
+
+.markdown-body .pl-mi2 {
+  color: #eaeef2;
+  background-color: #0550ae;
+}
+
+.markdown-body .pl-mdr {
+  font-weight: bold;
+  color: #8250df;
+}
+
+.markdown-body .pl-ba {
+  color: #57606a;
+}
+
+.markdown-body .pl-sg {
+  color: #8c959f;
+}
+
+.markdown-body .pl-corl {
+  text-decoration: underline;
+  color: #0a3069;
+}
+
+.markdown-body [data-catalyst] {
+  display: block;
+}
+
+.markdown-body g-emoji {
+  font-family: "Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  font-size: 1em;
+  font-style: normal !important;
+  font-weight: 400;
+  line-height: 1;
+  vertical-align: -0.075em;
+}
+
+.markdown-body g-emoji img {
+  width: 1em;
+  height: 1em;
+}
+
+.markdown-body::before {
+  display: table;
+  content: "";
+}
+
+.markdown-body::after {
+  display: table;
+  clear: both;
+  content: "";
+}
+
+.markdown-body>*:first-child {
+  margin-top: 0 !important;
+}
+
+.markdown-body>*:last-child {
+  margin-bottom: 0 !important;
+}
+
+.markdown-body a:not([href]) {
+  color: inherit;
+  text-decoration: none;
+}
+
+.markdown-body .absent {
+  color: #cf222e;
+}
+
+.markdown-body .anchor {
+  float: left;
+  padding-right: 4px;
+  margin-left: -20px;
+  line-height: 1;
+}
+
+.markdown-body .anchor:focus {
+  outline: none;
+}
+
+.markdown-body p,
+.markdown-body blockquote,
+.markdown-body ul,
+.markdown-body ol,
+.markdown-body dl,
+.markdown-body table,
+.markdown-body pre,
+.markdown-body details {
+  margin-top: 0;
+  margin-bottom: 16px;
+}
+
+.markdown-body blockquote>:first-child {
+  margin-top: 0;
+}
+
+.markdown-body blockquote>:last-child {
+  margin-bottom: 0;
+}
+
+.markdown-body sup>a::before {
+  content: "[";
+}
+
+.markdown-body sup>a::after {
+  content: "]";
+}
+
+.markdown-body h1 .octicon-link,
+.markdown-body h2 .octicon-link,
+.markdown-body h3 .octicon-link,
+.markdown-body h4 .octicon-link,
+.markdown-body h5 .octicon-link,
+.markdown-body h6 .octicon-link {
+  color: #24292f;
+  vertical-align: middle;
+  visibility: hidden;
+}
+
+.markdown-body h1:hover .anchor,
+.markdown-body h2:hover .anchor,
+.markdown-body h3:hover .anchor,
+.markdown-body h4:hover .anchor,
+.markdown-body h5:hover .anchor,
+.markdown-body h6:hover .anchor {
+  text-decoration: none;
+}
+
+.markdown-body h1:hover .anchor .octicon-link,
+.markdown-body h2:hover .anchor .octicon-link,
+.markdown-body h3:hover .anchor .octicon-link,
+.markdown-body h4:hover .anchor .octicon-link,
+.markdown-body h5:hover .anchor .octicon-link,
+.markdown-body h6:hover .anchor .octicon-link {
+  visibility: visible;
+}
+
+.markdown-body h1 tt,
+.markdown-body h1 code,
+.markdown-body h2 tt,
+.markdown-body h2 code,
+.markdown-body h3 tt,
+.markdown-body h3 code,
+.markdown-body h4 tt,
+.markdown-body h4 code,
+.markdown-body h5 tt,
+.markdown-body h5 code,
+.markdown-body h6 tt,
+.markdown-body h6 code {
+  padding: 0 .2em;
+  font-size: inherit;
+}
+
+.markdown-body ul.no-list,
+.markdown-body ol.no-list {
+  padding: 0;
+  list-style-type: none;
+}
+
+.markdown-body ol[type="1"] {
+  list-style-type: decimal;
+}
+
+.markdown-body ol[type=a] {
+  list-style-type: lower-alpha;
+}
+
+.markdown-body ol[type=i] {
+  list-style-type: lower-roman;
+}
+
+.markdown-body div>ol:not([type]) {
+  list-style-type: decimal;
+}
+
+.markdown-body ul ul,
+.markdown-body ul ol,
+.markdown-body ol ol,
+.markdown-body ol ul {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.markdown-body li>p {
+  margin-top: 16px;
+}
+
+.markdown-body li+li {
+  margin-top: .25em;
+}
+
+.markdown-body dl {
+  padding: 0;
+}
+
+.markdown-body dl dt {
+  padding: 0;
+  margin-top: 16px;
+  font-size: 1em;
+  font-style: italic;
+  font-weight: 600;
+}
+
+.markdown-body dl dd {
+  padding: 0 16px;
+  margin-bottom: 16px;
+}
+
+.markdown-body table th {
+  font-weight: 600;
+}
+
+.markdown-body table th,
+.markdown-body table td {
+  padding: 6px 13px;
+  border: 1px solid #d0d7de;
+}
+
+.markdown-body table tr {
+  background-color: #ffffff;
+  border-top: 1px solid hsla(210,18%,87%,1);
+}
+
+.markdown-body table tr:nth-child(2n) {
+  background-color: #f6f8fa;
+}
+
+.markdown-body table img {
+  background-color: transparent;
+}
+
+.markdown-body img[align=right] {
+  padding-left: 20px;
+}
+
+.markdown-body img[align=left] {
+  padding-right: 20px;
+}
+
+.markdown-body .emoji {
+  max-width: none;
+  vertical-align: text-top;
+  background-color: transparent;
+}
+
+.markdown-body span.frame {
+  display: block;
+  overflow: hidden;
+}
+
+.markdown-body span.frame>span {
+  display: block;
+  float: left;
+  width: auto;
+  padding: 7px;
+  margin: 13px 0 0;
+  overflow: hidden;
+  border: 1px solid #d0d7de;
+}
+
+.markdown-body span.frame span img {
+  display: block;
+  float: left;
+}
+
+.markdown-body span.frame span span {
+  display: block;
+  padding: 5px 0 0;
+  clear: both;
+  color: #24292f;
+}
+
+.markdown-body span.align-center {
+  display: block;
+  overflow: hidden;
+  clear: both;
+}
+
+.markdown-body span.align-center>span {
+  display: block;
+  margin: 13px auto 0;
+  overflow: hidden;
+  text-align: center;
+}
+
+.markdown-body span.align-center span img {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.markdown-body span.align-right {
+  display: block;
+  overflow: hidden;
+  clear: both;
+}
+
+.markdown-body span.align-right>span {
+  display: block;
+  margin: 13px 0 0;
+  overflow: hidden;
+  text-align: right;
+}
+
+.markdown-body span.align-right span img {
+  margin: 0;
+  text-align: right;
+}
+
+.markdown-body span.float-left {
+  display: block;
+  float: left;
+  margin-right: 13px;
+  overflow: hidden;
+}
+
+.markdown-body span.float-left span {
+  margin: 13px 0 0;
+}
+
+.markdown-body span.float-right {
+  display: block;
+  float: right;
+  margin-left: 13px;
+  overflow: hidden;
+}
+
+.markdown-body span.float-right>span {
+  display: block;
+  margin: 13px auto 0;
+  overflow: hidden;
+  text-align: right;
+}
+
+.markdown-body code,
+.markdown-body tt {
+  padding: .2em .4em;
+  margin: 0;
+  font-size: 85%;
+  background-color: rgba(175,184,193,0.2);
+  border-radius: 6px;
+}
+
+.markdown-body code br,
+.markdown-body tt br {
+  display: none;
+}
+
+.markdown-body del code {
+  text-decoration: inherit;
+}
+
+.markdown-body pre code {
+  font-size: 100%;
+}
+
+.markdown-body pre>code {
+  padding: 0;
+  margin: 0;
+  word-break: normal;
+  white-space: pre;
+  background: transparent;
+  border: 0;
+}
+
+.markdown-body .highlight {
+  margin-bottom: 16px;
+}
+
+.markdown-body .highlight pre {
+  margin-bottom: 0;
+  word-break: normal;
+}
+
+.markdown-body .highlight pre,
+.markdown-body pre {
+  padding: 16px;
+  overflow: auto;
+  font-size: 85%;
+  line-height: 1.45;
+  background-color: #f6f8fa;
+  border-radius: 6px;
+}
+
+.markdown-body pre code,
+.markdown-body pre tt {
+  display: inline;
+  max-width: auto;
+  padding: 0;
+  margin: 0;
+  overflow: visible;
+  line-height: inherit;
+  word-wrap: normal;
+  background-color: transparent;
+  border: 0;
+}
+
+.markdown-body .csv-data td,
+.markdown-body .csv-data th {
+  padding: 5px;
+  overflow: hidden;
+  font-size: 12px;
+  line-height: 1;
+  text-align: left;
+  white-space: nowrap;
+}
+
+.markdown-body .csv-data .blob-num {
+  padding: 10px 8px 9px;
+  text-align: right;
+  background: #ffffff;
+  border: 0;
+}
+
+.markdown-body .csv-data tr {
+  border-top: 0;
+}
+
+.markdown-body .csv-data th {
+  font-weight: 600;
+  background: #f6f8fa;
+  border-top: 0;
+}
+
+.markdown-body .footnotes {
+  font-size: 12px;
+  color: #57606a;
+  border-top: 1px solid #d0d7de;
+}
+
+.markdown-body .footnotes ol {
+  padding-left: 16px;
+}
+
+.markdown-body .footnotes li {
+  position: relative;
+}
+
+.markdown-body .footnotes li:target::before {
+  position: absolute;
+  top: -8px;
+  right: -8px;
+  bottom: -8px;
+  left: -24px;
+  pointer-events: none;
+  content: "";
+  border: 2px solid #0969da;
+  border-radius: 6px;
+}
+
+.markdown-body .footnotes li:target {
+  color: #24292f;
+}
+
+.markdown-body .footnotes .data-footnote-backref g-emoji {
+  font-family: monospace;
+}
+
+.markdown-body .task-list-item {
+  list-style-type: none;
+}
+
+.markdown-body .task-list-item label {
+  font-weight: 400;
+}
+
+.markdown-body .task-list-item.enabled label {
+  cursor: pointer;
+}
+
+.markdown-body .task-list-item+.task-list-item {
+  margin-top: 3px;
+}
+
+.markdown-body .task-list-item .handle {
+  display: none;
+}
+
+.markdown-body .task-list-item-checkbox {
+  margin: 0 .2em .25em -1.6em;
+  vertical-align: middle;
+}
+
+.markdown-body .contains-task-list:dir(rtl) .task-list-item-checkbox {
+  margin: 0 -1.6em .25em .2em;
+}
+
+.markdown-body ::-webkit-calendar-picker-indicator {
+  filter: invert(50%);
+}
+;
+T;@;@;@o;;;;	I"%/posts/why_i_create_this_blog.md;
+T{;{
+;U;[I"N/home/nawwabz/Documents/nzia_blog/content/posts/why_i_create_this_blog.md;
+TI"�Tentu ada beberapa alasan kenapa blog ini dibuat, di antaranya adalah:
+
+1. makan nasi pake sambel
+makan nasi pake nasi
+2. makan nasi pake sambel
+
+;
+T;U;[0I"�<p>Tentu ada beberapa alasan kenapa blog ini dibuat, di antaranya adalah:</p>
+
+<ol>
+  <li>makan nasi pake sambel<br />
+makan nasi pake nasi</li>
+  <li>makan nasi pake sambel</li>
+</ol>
+
+;
+T;U;[0I"�<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>nzia talk about - Alasan kenapa blog ini dibuat</title>
+    <link rel="stylesheet" href="/default.css">
+  </head>
+  <body>
+    <div>
+      <header class="header">
+        <h1 class="header__title">
+          Alasan kenapa blog ini dibuat
+        </h1>
+        <div class="header__nav">
+          <a class="back-button" href="/">&#8592index</a>
+          2022-04-17
+        </div>
+      </header>
+      <main class="markdown-body">
+        <p>Tentu ada beberapa alasan kenapa blog ini dibuat, di antaranya adalah:</p>
+
+<ol>
+  <li>makan nasi pake sambel<br />
+makan nasi pake nasi</li>
+  <li>makan nasi pake sambel</li>
+</ol>
+
+
+      </main>
+    </div>
+  </body>
+</html>
+;
+T;@%;@%o;;;;	I"/posts/test.md;
+T{;{
+;U;[I"</home/nawwabz/Documents/nzia_blog/content/posts/test.md;
+TI"�# Dillinger
+
+## The Last Markdown Editor, Ever_
+
+[![N|Solid](https://cldup.com/dTxpPi9lDf.thumb.png)](https://nodesource.com/products/nsolid)
+
+[![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
+
+Dillinger is a cloud-enabled, mobile-ready, offline-storage compatible,
+AngularJS-powered HTML5 Markdown editor.
+
+- Type some Markdown on the left
+- See HTML in the right
+- ✨Magic ✨
+
+## Features
+
+- Import a HTML file and watch it magically convert to Markdown
+- Drag and drop images (requires your Dropbox account be linked)
+- Import and save files from GitHub, Dropbox, Google Drive and One Drive
+- Drag and drop markdown and HTML files into Dillinger
+- Export documents as Markdown, HTML and PDF
+
+Markdown is a lightweight markup language based on the formatting conventions
+that people naturally use in email.
+As [John Gruber] writes on the [Markdown site][df1]
+
+> The overriding design goal for Markdown's
+> formatting syntax is to make it as readable
+> as possible. The idea is that a
+> Markdown-formatted document should be
+> publishable as-is, as plain text, without
+> looking like it's been marked up with tags
+> or formatting instructions.
+
+This text you see here is *actually- written in Markdown! To get a feel
+for Markdown's syntax, type some text into the left window and
+watch the results in the right.
+
+## Tech
+
+Dillinger uses a number of open source projects to work properly:
+
+- [AngularJS] - HTML enhanced for web apps!
+- [Ace Editor] - awesome web-based text editor
+- [markdown-it] - Markdown parser done right. Fast and easy to extend.
+- [Twitter Bootstrap] - great UI boilerplate for modern web apps
+- [node.js] - evented I/O for the backend
+- [Express] - fast node.js network app framework [@tjholowaychuk]
+- [Gulp] - the streaming build system
+- [Breakdance](https://breakdance.github.io/breakdance/) - HTML
+to Markdown converter
+- [jQuery] - duh
+
+And of course Dillinger itself is open source with a [public repository][dill]
+ on GitHub.
+
+## Installation
+
+Dillinger requires [Node.js](https://nodejs.org/) v10+ to run.
+
+Install the dependencies and devDependencies and start the server.
+
+```sh
+cd dillinger
+npm i
+node app
+```
+
+For production environments...
+
+```sh
+npm install --production
+NODE_ENV=production node app
+```
+
+## Plugins
+
+Dillinger is currently extended with the following plugins.
+Instructions on how to use them in your own application are linked below.
+
+| Plugin | README |
+| ------ | ------ |
+| Dropbox | [plugins/dropbox/README.md][PlDb] |
+| GitHub | [plugins/github/README.md][PlGh] |
+| Google Drive | [plugins/googledrive/README.md][PlGd] |
+| OneDrive | [plugins/onedrive/README.md][PlOd] |
+| Medium | [plugins/medium/README.md][PlMe] |
+| Google Analytics | [plugins/googleanalytics/README.md][PlGa] |
+
+## Development
+
+Want to contribute? Great!
+
+Dillinger uses Gulp + Webpack for fast developing.
+Make a change in your file and instantaneously see your updates!
+
+Open your favorite Terminal and run these commands.
+
+First Tab:
+
+```sh
+node app
+```
+
+Second Tab:
+
+```sh
+gulp watch
+```
+
+(optional) Third:
+
+```sh
+karma test
+```
+
+#### Building for source
+
+For production release:
+
+```sh
+gulp build --prod
+```
+
+Generating pre-built zip archives for distribution:
+
+```sh
+gulp build dist --prod
+```
+
+## Docker
+
+Dillinger is very easy to install and deploy in a Docker container.
+
+By default, the Docker will expose port 8080, so change this within the
+Dockerfile if necessary. When ready, simply use the Dockerfile to
+build the image.
+
+```sh
+cd dillinger
+docker build -t <youruser>/dillinger:${package.json.version} .
+```
+
+This will create the dillinger image and pull in the necessary dependencies.
+Be sure to swap out `${package.json.version}` with the actual
+version of Dillinger.
+
+Once done, run the Docker image and map the port to whatever you wish on
+your host. In this example, we simply map port 8000 of the host to
+port 8080 of the Docker (or whatever port was exposed in the Dockerfile):
+
+```sh
+docker run -d -p 8000:8080 --restart=always --cap-add=SYS_ADMIN --name=dillinger <youruser>/dillinger:${package.json.version}
+```
+
+> Note: `--capt-add=SYS-ADMIN` is required for PDF rendering.
+
+Verify the deployment by navigating to your server address in
+your preferred browser.
+
+```sh
+127.0.0.1:8000
+```
+
+## License
+
+MIT
+
+**Free Software, Hell Yeah!**
+
+[//]: # (These are reference links used in the body of this note and get stripped out when the markdown processor does its job. There is no need to format nicely because it shouldn't be seen. Thanks SO - http://stackoverflow.com/questions/4823468/store-comments-in-markdown-syntax)
+
+   [dill]: <https://github.com/joemccann/dillinger>
+   [git-repo-url]: <https://github.com/joemccann/dillinger.git>
+   [john gruber]: <http://daringfireball.net>
+   [df1]: <http://daringfireball.net/projects/markdown/>
+   [markdown-it]: <https://github.com/markdown-it/markdown-it>
+   [Ace Editor]: <http://ace.ajax.org>
+   [node.js]: <http://nodejs.org>
+   [Twitter Bootstrap]: <http://twitter.github.com/bootstrap/>
+   [jQuery]: <http://jquery.com>
+   [@tjholowaychuk]: <http://twitter.com/tjholowaychuk>
+   [express]: <http://expressjs.com>
+   [AngularJS]: <http://angularjs.org>
+   [Gulp]: <http://gulpjs.com>
+
+   [PlDb]: <https://github.com/joemccann/dillinger/tree/master/plugins/dropbox/README.md>
+   [PlGh]: <https://github.com/joemccann/dillinger/tree/master/plugins/github/README.md>
+   [PlGd]: <https://github.com/joemccann/dillinger/tree/master/plugins/googledrive/README.md>
+   [PlOd]: <https://github.com/joemccann/dillinger/tree/master/plugins/onedrive/README.md>
+   [PlMe]: <https://github.com/joemccann/dillinger/tree/master/plugins/medium/README.md>
+   [PlGa]: <https://github.com/RahulHP/dillinger/blob/master/plugins/googleanalytics/README.md>
+;
+T;U;[0I"_<h1 id="dillinger">Dillinger</h1>
+
+<h2 id="the-last-markdown-editor-ever_">The Last Markdown Editor, Ever_</h2>
+
+<table>
+  <tbody>
+    <tr>
+      <td>[![N</td>
+      <td>Solid](https://cldup.com/dTxpPi9lDf.thumb.png)](https://nodesource.com/products/nsolid)</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><a href="https://travis-ci.org/joemccann/dillinger"><img src="https://travis-ci.org/joemccann/dillinger.svg?branch=master" alt="Build Status" /></a></p>
+
+<p>Dillinger is a cloud-enabled, mobile-ready, offline-storage compatible,<br />
+AngularJS-powered HTML5 Markdown editor.</p>
+
+<ul>
+  <li>Type some Markdown on the left</li>
+  <li>See HTML in the right</li>
+  <li>✨Magic ✨</li>
+</ul>
+
+<h2 id="features">Features</h2>
+
+<ul>
+  <li>Import a HTML file and watch it magically convert to Markdown</li>
+  <li>Drag and drop images (requires your Dropbox account be linked)</li>
+  <li>Import and save files from GitHub, Dropbox, Google Drive and One Drive</li>
+  <li>Drag and drop markdown and HTML files into Dillinger</li>
+  <li>Export documents as Markdown, HTML and PDF</li>
+</ul>
+
+<p>Markdown is a lightweight markup language based on the formatting conventions<br />
+that people naturally use in email.<br />
+As <a href="http://daringfireball.net">John Gruber</a> writes on the <a href="http://daringfireball.net/projects/markdown/">Markdown site</a></p>
+
+<blockquote>
+  <p>The overriding design goal for Markdown’s<br />
+formatting syntax is to make it as readable<br />
+as possible. The idea is that a<br />
+Markdown-formatted document should be<br />
+publishable as-is, as plain text, without<br />
+looking like it’s been marked up with tags<br />
+or formatting instructions.</p>
+</blockquote>
+
+<p>This text you see here is *actually- written in Markdown! To get a feel<br />
+for Markdown’s syntax, type some text into the left window and<br />
+watch the results in the right.</p>
+
+<h2 id="tech">Tech</h2>
+
+<p>Dillinger uses a number of open source projects to work properly:</p>
+
+<ul>
+  <li><a href="http://angularjs.org">AngularJS</a> - HTML enhanced for web apps!</li>
+  <li><a href="http://ace.ajax.org">Ace Editor</a> - awesome web-based text editor</li>
+  <li><a href="https://github.com/markdown-it/markdown-it">markdown-it</a> - Markdown parser done right. Fast and easy to extend.</li>
+  <li><a href="http://twitter.github.com/bootstrap/">Twitter Bootstrap</a> - great UI boilerplate for modern web apps</li>
+  <li><a href="http://nodejs.org">node.js</a> - evented I/O for the backend</li>
+  <li><a href="http://expressjs.com">Express</a> - fast node.js network app framework <a href="http://twitter.com/tjholowaychuk">@tjholowaychuk</a></li>
+  <li><a href="http://gulpjs.com">Gulp</a> - the streaming build system</li>
+  <li><a href="https://breakdance.github.io/breakdance/">Breakdance</a> - HTML<br />
+to Markdown converter</li>
+  <li><a href="http://jquery.com">jQuery</a> - duh</li>
+</ul>
+
+<p>And of course Dillinger itself is open source with a <a href="https://github.com/joemccann/dillinger">public repository</a><br />
+ on GitHub.</p>
+
+<h2 id="installation">Installation</h2>
+
+<p>Dillinger requires <a href="https://nodejs.org/">Node.js</a> v10+ to run.</p>
+
+<p>Install the dependencies and devDependencies and start the server.</p>
+
+<pre><code class="language-sh">cd dillinger
+npm i
+node app
+</code></pre>
+
+<p>For production environments…</p>
+
+<pre><code class="language-sh">npm install --production
+NODE_ENV=production node app
+</code></pre>
+
+<h2 id="plugins">Plugins</h2>
+
+<p>Dillinger is currently extended with the following plugins.<br />
+Instructions on how to use them in your own application are linked below.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Plugin</th>
+      <th>README</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Dropbox</td>
+      <td><a href="https://github.com/joemccann/dillinger/tree/master/plugins/dropbox/README.md">plugins/dropbox/README.md</a></td>
+    </tr>
+    <tr>
+      <td>GitHub</td>
+      <td><a href="https://github.com/joemccann/dillinger/tree/master/plugins/github/README.md">plugins/github/README.md</a></td>
+    </tr>
+    <tr>
+      <td>Google Drive</td>
+      <td><a href="https://github.com/joemccann/dillinger/tree/master/plugins/googledrive/README.md">plugins/googledrive/README.md</a></td>
+    </tr>
+    <tr>
+      <td>OneDrive</td>
+      <td><a href="https://github.com/joemccann/dillinger/tree/master/plugins/onedrive/README.md">plugins/onedrive/README.md</a></td>
+    </tr>
+    <tr>
+      <td>Medium</td>
+      <td><a href="https://github.com/joemccann/dillinger/tree/master/plugins/medium/README.md">plugins/medium/README.md</a></td>
+    </tr>
+    <tr>
+      <td>Google Analytics</td>
+      <td><a href="https://github.com/RahulHP/dillinger/blob/master/plugins/googleanalytics/README.md">plugins/googleanalytics/README.md</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="development">Development</h2>
+
+<p>Want to contribute? Great!</p>
+
+<p>Dillinger uses Gulp + Webpack for fast developing.<br />
+Make a change in your file and instantaneously see your updates!</p>
+
+<p>Open your favorite Terminal and run these commands.</p>
+
+<p>First Tab:</p>
+
+<pre><code class="language-sh">node app
+</code></pre>
+
+<p>Second Tab:</p>
+
+<pre><code class="language-sh">gulp watch
+</code></pre>
+
+<p>(optional) Third:</p>
+
+<pre><code class="language-sh">karma test
+</code></pre>
+
+<h4 id="building-for-source">Building for source</h4>
+
+<p>For production release:</p>
+
+<pre><code class="language-sh">gulp build --prod
+</code></pre>
+
+<p>Generating pre-built zip archives for distribution:</p>
+
+<pre><code class="language-sh">gulp build dist --prod
+</code></pre>
+
+<h2 id="docker">Docker</h2>
+
+<p>Dillinger is very easy to install and deploy in a Docker container.</p>
+
+<p>By default, the Docker will expose port 8080, so change this within the<br />
+Dockerfile if necessary. When ready, simply use the Dockerfile to<br />
+build the image.</p>
+
+<pre><code class="language-sh">cd dillinger
+docker build -t &lt;youruser&gt;/dillinger:${package.json.version} .
+</code></pre>
+
+<p>This will create the dillinger image and pull in the necessary dependencies.<br />
+Be sure to swap out <code>${package.json.version}</code> with the actual<br />
+version of Dillinger.</p>
+
+<p>Once done, run the Docker image and map the port to whatever you wish on<br />
+your host. In this example, we simply map port 8000 of the host to<br />
+port 8080 of the Docker (or whatever port was exposed in the Dockerfile):</p>
+
+<pre><code class="language-sh">docker run -d -p 8000:8080 --restart=always --cap-add=SYS_ADMIN --name=dillinger &lt;youruser&gt;/dillinger:${package.json.version}
+</code></pre>
+
+<blockquote>
+  <p>Note: <code>--capt-add=SYS-ADMIN</code> is required for PDF rendering.</p>
+</blockquote>
+
+<p>Verify the deployment by navigating to your server address in<br />
+your preferred browser.</p>
+
+<pre><code class="language-sh">127.0.0.1:8000
+</code></pre>
+
+<h2 id="license">License</h2>
+
+<p>MIT</p>
+
+<p><strong>Free Software, Hell Yeah!</strong></p>
+
+;
+T;U;[0I"x<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>nzia talk about - cuma ngetest aja</title>
+    <link rel="stylesheet" href="/default.css">
+  </head>
+  <body>
+    <div>
+      <header class="header">
+        <h1 class="header__title">
+          cuma ngetest aja
+        </h1>
+        <div class="header__nav">
+          <a class="back-button" href="/">&#8592index</a>
+          2022-04-17
+        </div>
+      </header>
+      <main class="markdown-body">
+        <h1 id="dillinger">Dillinger</h1>
+
+<h2 id="the-last-markdown-editor-ever_">The Last Markdown Editor, Ever_</h2>
+
+<table>
+  <tbody>
+    <tr>
+      <td>[![N</td>
+      <td>Solid](https://cldup.com/dTxpPi9lDf.thumb.png)](https://nodesource.com/products/nsolid)</td>
+    </tr>
+  </tbody>
+</table>
+
+<p><a href="https://travis-ci.org/joemccann/dillinger"><img src="https://travis-ci.org/joemccann/dillinger.svg?branch=master" alt="Build Status" /></a></p>
+
+<p>Dillinger is a cloud-enabled, mobile-ready, offline-storage compatible,<br />
+AngularJS-powered HTML5 Markdown editor.</p>
+
+<ul>
+  <li>Type some Markdown on the left</li>
+  <li>See HTML in the right</li>
+  <li>✨Magic ✨</li>
+</ul>
+
+<h2 id="features">Features</h2>
+
+<ul>
+  <li>Import a HTML file and watch it magically convert to Markdown</li>
+  <li>Drag and drop images (requires your Dropbox account be linked)</li>
+  <li>Import and save files from GitHub, Dropbox, Google Drive and One Drive</li>
+  <li>Drag and drop markdown and HTML files into Dillinger</li>
+  <li>Export documents as Markdown, HTML and PDF</li>
+</ul>
+
+<p>Markdown is a lightweight markup language based on the formatting conventions<br />
+that people naturally use in email.<br />
+As <a href="http://daringfireball.net">John Gruber</a> writes on the <a href="http://daringfireball.net/projects/markdown/">Markdown site</a></p>
+
+<blockquote>
+  <p>The overriding design goal for Markdown’s<br />
+formatting syntax is to make it as readable<br />
+as possible. The idea is that a<br />
+Markdown-formatted document should be<br />
+publishable as-is, as plain text, without<br />
+looking like it’s been marked up with tags<br />
+or formatting instructions.</p>
+</blockquote>
+
+<p>This text you see here is *actually- written in Markdown! To get a feel<br />
+for Markdown’s syntax, type some text into the left window and<br />
+watch the results in the right.</p>
+
+<h2 id="tech">Tech</h2>
+
+<p>Dillinger uses a number of open source projects to work properly:</p>
+
+<ul>
+  <li><a href="http://angularjs.org">AngularJS</a> - HTML enhanced for web apps!</li>
+  <li><a href="http://ace.ajax.org">Ace Editor</a> - awesome web-based text editor</li>
+  <li><a href="https://github.com/markdown-it/markdown-it">markdown-it</a> - Markdown parser done right. Fast and easy to extend.</li>
+  <li><a href="http://twitter.github.com/bootstrap/">Twitter Bootstrap</a> - great UI boilerplate for modern web apps</li>
+  <li><a href="http://nodejs.org">node.js</a> - evented I/O for the backend</li>
+  <li><a href="http://expressjs.com">Express</a> - fast node.js network app framework <a href="http://twitter.com/tjholowaychuk">@tjholowaychuk</a></li>
+  <li><a href="http://gulpjs.com">Gulp</a> - the streaming build system</li>
+  <li><a href="https://breakdance.github.io/breakdance/">Breakdance</a> - HTML<br />
+to Markdown converter</li>
+  <li><a href="http://jquery.com">jQuery</a> - duh</li>
+</ul>
+
+<p>And of course Dillinger itself is open source with a <a href="https://github.com/joemccann/dillinger">public repository</a><br />
+ on GitHub.</p>
+
+<h2 id="installation">Installation</h2>
+
+<p>Dillinger requires <a href="https://nodejs.org/">Node.js</a> v10+ to run.</p>
+
+<p>Install the dependencies and devDependencies and start the server.</p>
+
+<pre><code class="language-sh">cd dillinger
+npm i
+node app
+</code></pre>
+
+<p>For production environments…</p>
+
+<pre><code class="language-sh">npm install --production
+NODE_ENV=production node app
+</code></pre>
+
+<h2 id="plugins">Plugins</h2>
+
+<p>Dillinger is currently extended with the following plugins.<br />
+Instructions on how to use them in your own application are linked below.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Plugin</th>
+      <th>README</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Dropbox</td>
+      <td><a href="https://github.com/joemccann/dillinger/tree/master/plugins/dropbox/README.md">plugins/dropbox/README.md</a></td>
+    </tr>
+    <tr>
+      <td>GitHub</td>
+      <td><a href="https://github.com/joemccann/dillinger/tree/master/plugins/github/README.md">plugins/github/README.md</a></td>
+    </tr>
+    <tr>
+      <td>Google Drive</td>
+      <td><a href="https://github.com/joemccann/dillinger/tree/master/plugins/googledrive/README.md">plugins/googledrive/README.md</a></td>
+    </tr>
+    <tr>
+      <td>OneDrive</td>
+      <td><a href="https://github.com/joemccann/dillinger/tree/master/plugins/onedrive/README.md">plugins/onedrive/README.md</a></td>
+    </tr>
+    <tr>
+      <td>Medium</td>
+      <td><a href="https://github.com/joemccann/dillinger/tree/master/plugins/medium/README.md">plugins/medium/README.md</a></td>
+    </tr>
+    <tr>
+      <td>Google Analytics</td>
+      <td><a href="https://github.com/RahulHP/dillinger/blob/master/plugins/googleanalytics/README.md">plugins/googleanalytics/README.md</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="development">Development</h2>
+
+<p>Want to contribute? Great!</p>
+
+<p>Dillinger uses Gulp + Webpack for fast developing.<br />
+Make a change in your file and instantaneously see your updates!</p>
+
+<p>Open your favorite Terminal and run these commands.</p>
+
+<p>First Tab:</p>
+
+<pre><code class="language-sh">node app
+</code></pre>
+
+<p>Second Tab:</p>
+
+<pre><code class="language-sh">gulp watch
+</code></pre>
+
+<p>(optional) Third:</p>
+
+<pre><code class="language-sh">karma test
+</code></pre>
+
+<h4 id="building-for-source">Building for source</h4>
+
+<p>For production release:</p>
+
+<pre><code class="language-sh">gulp build --prod
+</code></pre>
+
+<p>Generating pre-built zip archives for distribution:</p>
+
+<pre><code class="language-sh">gulp build dist --prod
+</code></pre>
+
+<h2 id="docker">Docker</h2>
+
+<p>Dillinger is very easy to install and deploy in a Docker container.</p>
+
+<p>By default, the Docker will expose port 8080, so change this within the<br />
+Dockerfile if necessary. When ready, simply use the Dockerfile to<br />
+build the image.</p>
+
+<pre><code class="language-sh">cd dillinger
+docker build -t &lt;youruser&gt;/dillinger:${package.json.version} .
+</code></pre>
+
+<p>This will create the dillinger image and pull in the necessary dependencies.<br />
+Be sure to swap out <code>${package.json.version}</code> with the actual<br />
+version of Dillinger.</p>
+
+<p>Once done, run the Docker image and map the port to whatever you wish on<br />
+your host. In this example, we simply map port 8000 of the host to<br />
+port 8080 of the Docker (or whatever port was exposed in the Dockerfile):</p>
+
+<pre><code class="language-sh">docker run -d -p 8000:8080 --restart=always --cap-add=SYS_ADMIN --name=dillinger &lt;youruser&gt;/dillinger:${package.json.version}
+</code></pre>
+
+<blockquote>
+  <p>Note: <code>--capt-add=SYS-ADMIN</code> is required for PDF rendering.</p>
+</blockquote>
+
+<p>Verify the deployment by navigating to your server address in<br />
+your preferred browser.</p>
+
+<pre><code class="language-sh">127.0.0.1:8000
+</code></pre>
+
+<h2 id="license">License</h2>
+
+<p>MIT</p>
+
+<p><strong>Free Software, Hell Yeah!</strong></p>
+
+
+      </main>
+    </div>
+  </body>
+</html>
+;
+T;@3;@3o;;;;	I"/posts/try_lorem.md;
+T{;{
+;U;[I"A/home/nawwabz/Documents/nzia_blog/content/posts/try_lorem.md;
+TI"$ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin laoreet lorem quis orci rutrum, ut rhoncus purus blandit. Nam tempor lorem molestie risus ornare, vel sagittis est luctus. Duis quam nisl, laoreet sit amet neque vel, varius eleifend risus. Curabitur sagittis urna nec tortor dignissim, in volutpat massa auctor. In sed consequat turpis. Mauris aliquam congue felis et facilisis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nulla vel gravida urna. In hac habitasse platea dictumst. Phasellus et nisi pharetra, maximus metus sed, pretium sapien. Morbi ante justo, fermentum quis efficitur vel, mollis quis lectus. Duis ut enim ante. Suspendisse metus dui, accumsan id massa id, tristique commodo nibh. Integer justo eros, venenatis at scelerisque elementum, volutpat vitae tellus. Aliquam erat volutpat.
+
+Integer a elit sit amet elit condimentum dignissim. Aenean egestas quam ut risus faucibus, eget semper metus malesuada. Donec sed turpis nec purus pulvinar blandit. Vivamus euismod id magna et condimentum. Aenean convallis magna eu nibh ullamcorper dapibus. Suspendisse blandit, nisi in luctus ultrices, elit augue lacinia elit, accumsan molestie nulla velit vitae risus. Aliquam at quam semper, pulvinar eros et, elementum tortor. Donec faucibus sit amet mauris sed varius. Proin nisl orci, blandit nec ex id, pretium euismod arcu. Nullam molestie sodales magna, tincidunt vestibulum magna dictum dignissim. Nullam vel luctus nulla, a malesuada lorem. Vestibulum aliquet mauris at est dapibus mollis. Cras condimentum ultricies dui, sit amet porta justo.
+
+Praesent dapibus porta ipsum, quis euismod sapien convallis ut. Sed vestibulum velit suscipit cursus auctor. Morbi non magna enim. Fusce sit amet lorem ut ante placerat blandit. Maecenas mattis lectus non arcu fermentum, ac auctor diam congue. Quisque non ante feugiat, volutpat enim et, pretium nulla. Suspendisse nec lacus vel elit luctus commodo ac in turpis. Suspendisse laoreet lacus sit amet orci suscipit dignissim nec vitae justo. Mauris laoreet fringilla tortor, non dapibus dolor finibus eu. Nulla accumsan molestie auctor. Pellentesque porta viverra massa id rhoncus. Aenean vel urna gravida, ornare massa vitae, eleifend metus. Maecenas tempor maximus libero id pulvinar. Proin mauris eros, sodales vitae velit in, ultrices varius leo. Mauris ac vehicula neque, quis gravida erat. Donec fringilla dolor sapien, ac dictum mi rhoncus eget.
+
+Donec auctor porttitor lectus vel aliquam. Aliquam erat volutpat. Vivamus tristique viverra ligula vel dapibus. Integer mollis rutrum dui, in aliquet enim condimentum et. Proin dapibus mollis mollis. Donec sodales, ipsum id rutrum blandit, justo tortor maximus eros, sed congue magna diam vitae velit. Integer egestas tortor sed odio posuere, mattis facilisis neque pretium. 
+
+;
+T;U;[0I"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin laoreet lorem quis orci rutrum, ut rhoncus purus blandit. Nam tempor lorem molestie risus ornare, vel sagittis est luctus. Duis quam nisl, laoreet sit amet neque vel, varius eleifend risus. Curabitur sagittis urna nec tortor dignissim, in volutpat massa auctor. In sed consequat turpis. Mauris aliquam congue felis et facilisis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nulla vel gravida urna. In hac habitasse platea dictumst. Phasellus et nisi pharetra, maximus metus sed, pretium sapien. Morbi ante justo, fermentum quis efficitur vel, mollis quis lectus. Duis ut enim ante. Suspendisse metus dui, accumsan id massa id, tristique commodo nibh. Integer justo eros, venenatis at scelerisque elementum, volutpat vitae tellus. Aliquam erat volutpat.</p>
+
+<p>Integer a elit sit amet elit condimentum dignissim. Aenean egestas quam ut risus faucibus, eget semper metus malesuada. Donec sed turpis nec purus pulvinar blandit. Vivamus euismod id magna et condimentum. Aenean convallis magna eu nibh ullamcorper dapibus. Suspendisse blandit, nisi in luctus ultrices, elit augue lacinia elit, accumsan molestie nulla velit vitae risus. Aliquam at quam semper, pulvinar eros et, elementum tortor. Donec faucibus sit amet mauris sed varius. Proin nisl orci, blandit nec ex id, pretium euismod arcu. Nullam molestie sodales magna, tincidunt vestibulum magna dictum dignissim. Nullam vel luctus nulla, a malesuada lorem. Vestibulum aliquet mauris at est dapibus mollis. Cras condimentum ultricies dui, sit amet porta justo.</p>
+
+<p>Praesent dapibus porta ipsum, quis euismod sapien convallis ut. Sed vestibulum velit suscipit cursus auctor. Morbi non magna enim. Fusce sit amet lorem ut ante placerat blandit. Maecenas mattis lectus non arcu fermentum, ac auctor diam congue. Quisque non ante feugiat, volutpat enim et, pretium nulla. Suspendisse nec lacus vel elit luctus commodo ac in turpis. Suspendisse laoreet lacus sit amet orci suscipit dignissim nec vitae justo. Mauris laoreet fringilla tortor, non dapibus dolor finibus eu. Nulla accumsan molestie auctor. Pellentesque porta viverra massa id rhoncus. Aenean vel urna gravida, ornare massa vitae, eleifend metus. Maecenas tempor maximus libero id pulvinar. Proin mauris eros, sodales vitae velit in, ultrices varius leo. Mauris ac vehicula neque, quis gravida erat. Donec fringilla dolor sapien, ac dictum mi rhoncus eget.</p>
+
+<p>Donec auctor porttitor lectus vel aliquam. Aliquam erat volutpat. Vivamus tristique viverra ligula vel dapibus. Integer mollis rutrum dui, in aliquet enim condimentum et. Proin dapibus mollis mollis. Donec sodales, ipsum id rutrum blandit, justo tortor maximus eros, sed congue magna diam vitae velit. Integer egestas tortor sed odio posuere, mattis facilisis neque pretium.</p>
+
+;
+T;U;[0I"U<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>nzia talk about - try lorem ipsum</title>
+    <link rel="stylesheet" href="/default.css">
+  </head>
+  <body>
+    <div>
+      <header class="header">
+        <h1 class="header__title">
+          try lorem ipsum
+        </h1>
+        <div class="header__nav">
+          <a class="back-button" href="/">&#8592index</a>
+          2022-04-17
+        </div>
+      </header>
+      <main class="markdown-body">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin laoreet lorem quis orci rutrum, ut rhoncus purus blandit. Nam tempor lorem molestie risus ornare, vel sagittis est luctus. Duis quam nisl, laoreet sit amet neque vel, varius eleifend risus. Curabitur sagittis urna nec tortor dignissim, in volutpat massa auctor. In sed consequat turpis. Mauris aliquam congue felis et facilisis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nulla vel gravida urna. In hac habitasse platea dictumst. Phasellus et nisi pharetra, maximus metus sed, pretium sapien. Morbi ante justo, fermentum quis efficitur vel, mollis quis lectus. Duis ut enim ante. Suspendisse metus dui, accumsan id massa id, tristique commodo nibh. Integer justo eros, venenatis at scelerisque elementum, volutpat vitae tellus. Aliquam erat volutpat.</p>
+
+<p>Integer a elit sit amet elit condimentum dignissim. Aenean egestas quam ut risus faucibus, eget semper metus malesuada. Donec sed turpis nec purus pulvinar blandit. Vivamus euismod id magna et condimentum. Aenean convallis magna eu nibh ullamcorper dapibus. Suspendisse blandit, nisi in luctus ultrices, elit augue lacinia elit, accumsan molestie nulla velit vitae risus. Aliquam at quam semper, pulvinar eros et, elementum tortor. Donec faucibus sit amet mauris sed varius. Proin nisl orci, blandit nec ex id, pretium euismod arcu. Nullam molestie sodales magna, tincidunt vestibulum magna dictum dignissim. Nullam vel luctus nulla, a malesuada lorem. Vestibulum aliquet mauris at est dapibus mollis. Cras condimentum ultricies dui, sit amet porta justo.</p>
+
+<p>Praesent dapibus porta ipsum, quis euismod sapien convallis ut. Sed vestibulum velit suscipit cursus auctor. Morbi non magna enim. Fusce sit amet lorem ut ante placerat blandit. Maecenas mattis lectus non arcu fermentum, ac auctor diam congue. Quisque non ante feugiat, volutpat enim et, pretium nulla. Suspendisse nec lacus vel elit luctus commodo ac in turpis. Suspendisse laoreet lacus sit amet orci suscipit dignissim nec vitae justo. Mauris laoreet fringilla tortor, non dapibus dolor finibus eu. Nulla accumsan molestie auctor. Pellentesque porta viverra massa id rhoncus. Aenean vel urna gravida, ornare massa vitae, eleifend metus. Maecenas tempor maximus libero id pulvinar. Proin mauris eros, sodales vitae velit in, ultrices varius leo. Mauris ac vehicula neque, quis gravida erat. Donec fringilla dolor sapien, ac dictum mi rhoncus eget.</p>
+
+<p>Donec auctor porttitor lectus vel aliquam. Aliquam erat volutpat. Vivamus tristique viverra ligula vel dapibus. Integer mollis rutrum dui, in aliquet enim condimentum et. Proin dapibus mollis mollis. Donec sodales, ipsum id rutrum blandit, justo tortor maximus eros, sed congue magna diam vitae velit. Integer egestas tortor sed odio posuere, mattis facilisis neque pretium.</p>
+
+
+      </main>
+    </div>
+  </body>
+</html>
+;
+T;@A;@A:versioni
