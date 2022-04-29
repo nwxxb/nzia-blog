@@ -1,9 +1,12 @@
 <section class="posts">
   <ul class="posts__list">
     <% @items.find_all('/posts/*').each do |item| %>
-      <li class="posts__list-item">
-        <%= link_to item[:title], item, class: 'posts__list-item__a'%>
-      </li>
+      <% unless item[:hidden] %>
+        <li class="posts__list-item">
+          <%= link_to item[:title], item, class: 'posts__list-item__a'%>
+          <%= item[:created_at].strftime('%b %d') %>
+        </li>
+      <% end %>
     <% end %>
   </ul>
 </section>

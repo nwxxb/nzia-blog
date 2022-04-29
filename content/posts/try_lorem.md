@@ -1,6 +1,7 @@
 ---
 title: try lorem ipsum
 created_at: 2022-4-17
+hidden: true
 ---
 
  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin laoreet lorem quis orci rutrum, ut rhoncus purus blandit. Nam tempor lorem molestie risus ornare, vel sagittis est luctus. Duis quam nisl, laoreet sit amet neque vel, varius eleifend risus. Curabitur sagittis urna nec tortor dignissim, in volutpat massa auctor. In sed consequat turpis. Mauris aliquam congue felis et facilisis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nulla vel gravida urna. In hac habitasse platea dictumst. Phasellus et nisi pharetra, maximus metus sed, pretium sapien. Morbi ante justo, fermentum quis efficitur vel, mollis quis lectus. Duis ut enim ante. Suspendisse metus dui, accumsan id massa id, tristique commodo nibh. Integer justo eros, venenatis at scelerisque elementum, volutpat vitae tellus. Aliquam erat volutpat.

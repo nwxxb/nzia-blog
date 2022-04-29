@@ -1,6 +1,7 @@
 ---
 title: cuma ngetest aja
 created_at: 2022-4-17
+hidden: true
 ---
 
 # Dillinger

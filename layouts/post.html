@@ -13,7 +13,7 @@
         </h1>
         <div class="header__nav">
           <%= link_to '&#8592index', @items['/index.html'], class: 'back-button' %>
-          <%= @item[:created_at] %>
+          <%= @item[:created_at].strftime('%b %d, %Y') %>
         </div>
       </header>
       <main class="markdown-body">

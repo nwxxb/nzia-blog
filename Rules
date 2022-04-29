@@ -1,13 +1,22 @@
 #!/usr/bin/env ruby
+require 'date'
 
 preprocess do
   @items.each do |item|
     if item.identifier =~ '/posts/*'
       item[:kind] = 'post'
+      item[:created_at] = DateTime.parse(item[:created_at].to_s)
     else 
       item[:kind] = 'page'
     end
   end
+end
+
+# passthrough '/_redirects'
+
+compile '/404.*' do
+  layout '/default.*'
+  write '/404.html'
 end
 
 compile '/**/*.html' do
@@ -20,10 +29,6 @@ compile '/**/*.html' do
   end
 end
 
-# This is an example rule that matches Markdown (.md) files, and filters them
-# using the :kramdown filter. It is commented out by default, because kramdown
-# is not bundled with Nanoc or Ruby.
-#
 compile '/**/*.md' do
   filter :kramdown, input: 'GFM'
   layout '/post.*'
@@ -31,7 +36,11 @@ compile '/**/*.md' do
   if item.identifier =~ '**/index.*'
     write item.identifier.to_s
   else
-    write item.identifier.without_ext + '/index.html'
+    if item[:hidden] == true
+      write nil
+    else
+      write item.identifier.without_ext + '/index.html'
+    end
   end
 end
 
