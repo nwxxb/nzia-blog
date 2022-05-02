@@ -4,21 +4,20 @@
     <meta charset="utf-8">
     <title>nzia talk about - <%= @item[:title] %></title>
     <link rel="stylesheet" href="/default.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
   <body>
-    <div>
-      <header class="header">
-        <h1 class="header__title">
-          <%= @item[:title] %>
-        </h1>
-        <div class="header__nav">
-          <%= link_to '&#8592index', @items['/index.html'], class: 'back-button' %>
-          <%= @item[:created_at].strftime('%b %d, %Y') %>
-        </div>
-      </header>
-      <main class="markdown-body">
-        <%= yield %>
-      </main>
-    </div>
+    <header class="header">
+      <h1 class="header__title">
+        <%= @item[:title] %>
+      </h1>
+      <div class="header__nav">
+        <%= link_to '&#8592index', @items['/index.html'], class: 'back-button' %>
+        <%= @item[:created_at].strftime('%b %d, %Y') %>
+      </div>
+    </header>
+    <main class="markdown-body">
+      <%= yield %>
+    </main>
   </body>
 </html>
