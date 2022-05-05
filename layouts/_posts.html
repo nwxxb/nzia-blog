@@ -2,11 +2,18 @@
   <ul class="posts__list" style="font-size: 2rem;">
     <% @items.find_all('/posts/*').each do |item| %>
       <% unless item[:hidden] %>
-        <li class="posts__list-item">
-          <%= link_to item[:title], item, class: 'posts__list-item__a'%>
-          <span class="posts__list-item__date">
+        <li class="post__list">
+          <div class="post__list-item__date">
             <%= item[:created_at].strftime('%b %d') %>
-          </span>
+          </div>
+          <%= link_to item[:title], item, class: 'posts__list-item__a'%>
+          <% unless item[:tags].nil? %>
+            <span class="post__list-item__tags">
+              <% item[:tags].each do |tag| %>     
+                <span><%= tag %></span>
+              <% end %>
+            </span>
+          <% end %>
         </li>
       <% end %>
     <% end %>

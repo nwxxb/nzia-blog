@@ -1,6 +1,7 @@
 ---
-title: FAQ that no one ask for.
+title: FAQ yang tidak ditanyakan siapapun.
 created_at: 2022-4-20
+tags: ['indonesian']
 ---
 
 ## Kenapa blog ini dibuat?

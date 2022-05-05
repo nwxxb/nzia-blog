@@ -354,8 +354,19 @@ template {
   font-size: 20px;
 }
 
+.header__nav {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+
 .posts__list {
   padding: 0;
+  list-style: none;
+}
+
+.post__list {
+  margin-bottom: 16px;
 }
 
 .posts__list-item {
@@ -364,14 +375,13 @@ template {
   align-items: center;
 }
 
-.header__nav {
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 8px;
+.post__list-item__date {
+  margin: 0;
+  font-size: 1.5rem;
 }
 
-.posts__list-item__date {
-  font-size: 1.5rem;
+.post__list-item__tags {
+  font-size: 1.1rem;
 }
 
 /* Sakura.css v1.3.1

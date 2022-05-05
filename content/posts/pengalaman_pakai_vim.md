@@ -1,6 +1,7 @@
 ---
 title: Beberapa bulan menggunakan vim.
 created_at: 2022-4-29
+tags: ['indonesian']
 ---
 Dulu, saya adalah pengguna VSCode dan sangat bergantung pada GUI, dan saya sudah merasa cukup puas dengan beberapa plugin dan sering menggunakan mouse tanpa memedulikan shortcut. Sampai suatu saat karena project yang dikerjakan semakin besar dan melibatkan banyak teknologi saya terpaksa untuk memilih dua pilihan: 1. mencari text editor yang lebih ringan dan 2. mencari laptop yang lebih mumpuni. dan tentu sebagai mahasiswa yang belum memiliki penghasilan tetap saya memilih pilihan pertama. Tentu alasan ini mungkin tidak selaras dengan stigma atau ekspektasi yang terpaut pada pengguna vim pada umumnya: dapat menulis kode lebih cepat karena meniadakan penggunaan mouse. Ketika saya ditanya kenapa saya menggunakan vim justru saya akan menjawab: karena laptop saya bukan macbook yang cukup mumpuni untuk membuka VSCode dan banyak aplikasi secara bersamaan.
 
