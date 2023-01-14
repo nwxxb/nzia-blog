@@ -15,7 +15,6 @@
     <main class="main">
       <%= yield %>
       <%= render '/_posts.html' if @item.identifier =~ '/index.html' %>
-      <%= render '/_creative_commons.html' %>
     </main>
   </body>
 </html>
