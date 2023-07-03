@@ -10,6 +10,7 @@ prune:
 deploy:
   default:
     kind: git
+    remote: git@github.com:nwxxb/nwxxb.github.io.git
     branch: gh-pages
 
 data_sources:
